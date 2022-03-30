@@ -14,9 +14,6 @@ for i in range (len(q)):
     a = int(q[i])
     lista.append (a)
 
-
-
-
 while n != dim :
 
     j = lista[n] * (2**cont)
@@ -24,15 +21,10 @@ while n != dim :
     cont -= 1
     lista_2.append (j)
 
-
-
 for w in range (len(q) - 1):
 
     result = lista_2[w] + result
 
 final = (lista_2 [exp] * (2**0)) + result
 
-print(result, lista ,lista_2, final)
-
-
-
+print(final)
