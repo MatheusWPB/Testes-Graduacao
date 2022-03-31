@@ -11,7 +11,7 @@ lista = list() ; lista_2 = list()
 
 
 for i in range (len(q)):
-    a = int(q[i])
+    a = int (q[i])
     lista.append (a)
 
 while n != dim :
