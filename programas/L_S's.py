@@ -24,17 +24,3 @@ values = np.array((S, l, teta))
 data = np.array((c, b, y_pos, x_pos))
 
 print (values)
-
-
-
-
-
-
-
-
-
-
-
-
-
-

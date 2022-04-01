@@ -9,7 +9,6 @@ num = 0 ; soma = 0 ; exp = (dim - 1) ; n= 0 ; result = 0; cont = exp
 lista = list() ; lista_2 = list()
 
 
-
 for i in range (len(q)):
     a = int (q[i])
     lista.append (a)
@@ -27,4 +26,4 @@ for w in range (len(q) - 1):
 
 final = (lista_2 [exp] * (2**0)) + result
 
-print(final)
+print(final, lista_2, lista)
