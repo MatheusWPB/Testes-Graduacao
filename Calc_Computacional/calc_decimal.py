@@ -22,5 +22,8 @@ lista_result.append (lista[x])
 lista_result.reverse()
 
 print (f'Seu numero {dec} é:  ', end='')
+
+
+
 for y in range (len(lista_result)):
     print (f'{lista_result[y]} ', end = '')
