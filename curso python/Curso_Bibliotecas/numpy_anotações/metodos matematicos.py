@@ -17,13 +17,8 @@ import numpy as np
 
 a = np.arange(20)
 
-print(a.max())
+print(a.max()) #no caso de de matrzes é possivel colocar dentro do parenteses (axis = a linha que quer setar), para buscar apenas naquela linha ou coluna
 print(a.min())
-
-
-
-
-
 
 
 
