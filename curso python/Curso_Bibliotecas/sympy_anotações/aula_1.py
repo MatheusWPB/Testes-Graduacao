@@ -2,8 +2,11 @@ import sympy as sp
 
 x = sp.symbols ('x')
 
-print (x * x)
+b = x * x
 
+a = b.subs(x,5)
+
+print (a)
 print('-'*30)
 
 
