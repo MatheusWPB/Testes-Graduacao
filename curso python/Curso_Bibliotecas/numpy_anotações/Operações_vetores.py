@@ -19,4 +19,4 @@ a = np.array([1,2,3])
 
 np.dot(a,a)
 
-
+print(np.dot(a,a))
